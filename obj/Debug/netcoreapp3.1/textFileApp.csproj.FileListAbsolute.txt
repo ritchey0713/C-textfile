@@ -1,0 +1,11 @@
+/home/maveryk/Desktop/code/textFileApp/bin/Debug/netcoreapp3.1/textFileApp
+/home/maveryk/Desktop/code/textFileApp/bin/Debug/netcoreapp3.1/textFileApp.deps.json
+/home/maveryk/Desktop/code/textFileApp/bin/Debug/netcoreapp3.1/textFileApp.runtimeconfig.json
+/home/maveryk/Desktop/code/textFileApp/bin/Debug/netcoreapp3.1/textFileApp.runtimeconfig.dev.json
+/home/maveryk/Desktop/code/textFileApp/bin/Debug/netcoreapp3.1/textFileApp.dll
+/home/maveryk/Desktop/code/textFileApp/bin/Debug/netcoreapp3.1/textFileApp.pdb
+/home/maveryk/Desktop/code/textFileApp/obj/Debug/netcoreapp3.1/textFileApp.csprojAssemblyReference.cache
+/home/maveryk/Desktop/code/textFileApp/obj/Debug/netcoreapp3.1/textFileApp.AssemblyInfoInputs.cache
+/home/maveryk/Desktop/code/textFileApp/obj/Debug/netcoreapp3.1/textFileApp.AssemblyInfo.cs
+/home/maveryk/Desktop/code/textFileApp/obj/Debug/netcoreapp3.1/textFileApp.dll
+/home/maveryk/Desktop/code/textFileApp/obj/Debug/netcoreapp3.1/textFileApp.pdb

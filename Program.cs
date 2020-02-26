@@ -19,9 +19,19 @@ namespace textFileApp {
 
 			string[] lines = {"First line", "Second Line", "Third line!"};
 
+			string[] highScores = {"5000", "2200", "1800"};
+
 			
 
-			File.WriteAllLines(@"/home/maveryk/Desktop/code/hello2.txt", lines);
+			File.WriteAllLines(@"/home/maveryk/Desktop/code/hello2.txt", highScores);
+
+			System.Console.WriteLine("Please name the file");
+			string fileName = Console.ReadLine();
+			
+			System.Console.WriteLine("Enter text to save:");
+			string input = Console.ReadLine();
+			
+			File.WriteAllText(@"/home/maveryk/Desktop/code/" + fileName + ".txt",input);
 
     }
   }

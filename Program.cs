@@ -25,13 +25,25 @@ namespace textFileApp {
 
 			File.WriteAllLines(@"/home/maveryk/Desktop/code/hello2.txt", highScores);
 
-			System.Console.WriteLine("Please name the file");
-			string fileName = Console.ReadLine();
+			// System.Console.WriteLine("Please name the file");
+			// string fileName = Console.ReadLine();
 			
-			System.Console.WriteLine("Enter text to save:");
-			string input = Console.ReadLine();
+			// System.Console.WriteLine("Enter text to save:");
+			// string input = Console.ReadLine();
 			
-			File.WriteAllText(@"/home/maveryk/Desktop/code/" + fileName + ".txt",input);
+			// File.WriteAllText(@"/home/maveryk/Desktop/code/" + fileName + ".txt",input);
+
+			using(StreamWriter file = new StreamWriter(@"/home/maveryk/Desktop/code/myfile.txt")){
+				foreach(string line in lines){
+					if(line.Contains("Third")){
+						file.WriteLine(line);
+					}
+				}
+			}
+
+			using(StreamWriter file = new StreamWriter(@"/home/maveryk/Desktop/code/myfile.txt", true)){
+				file.WriteLine("Additional line");
+			}
 
     }
   }
